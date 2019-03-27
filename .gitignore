@@ -1,11 +1,12 @@
 # Compiled Object files
 *.slo
 *.lo
-*.o
+**/*.o
 
 # Compiled Dynamic libraries
-*.so
-*.dylib
+**/*.so
+**/lib*.so*
+**/*.dylib
 
 # Compiled Static libraries
 *.lai
@@ -52,3 +53,5 @@ packages/
 
 
 Automatica.Core/wwwroot
+**/Makefile
+**/.qmake*
